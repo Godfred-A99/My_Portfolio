@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section className="w-full px-20 pt-5 max-sm:px-5">
         <NavBar />
       </section>
     </>
