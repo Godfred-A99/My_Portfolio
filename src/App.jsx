@@ -1,7 +1,16 @@
-import "./App.css";
+import NavBar from "./NavBar"
+
 
 function App() {
-  return <></>;
+
+
+  return (
+    <>
+      <section>
+        <NavBar />
+      </section>
+    </>
+  )
 }
 
-export default App;
+export default App
