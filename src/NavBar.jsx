@@ -3,34 +3,34 @@ import NavLinks from "./Components/NavLinks";
 const NavBar = () => {
   return (
     <header>
-      <nav className="flex justify-between items-center w-full z-10">
+      <nav className="flex justify-between items-center w-full z-10 ">
         <a href="/">
           <img
             src="src/Assets/Images/Logo.png"
             alt="logo"
-            width={200}
+            width={175}
             height={172}
           />
         </a>
-        <div>
-          <ul className="flex gap-5 text-lg justify-center items-center block max-sm:hidden">
+        <div className="flex justify-center items-center ">
+          <ul className="flex gap-5 text-lg justify-center items-center block max-sm:hidden font-semibold">
             <li>
-              <NavLinks href="">Home</NavLinks>
+              <NavLinks href="/">Home</NavLinks>
             </li>
             <li>
-              <NavLinks href="">About</NavLinks>
+              <NavLinks href="#">About</NavLinks>
             </li>
             <li>
-              <NavLinks href="">Portfolio</NavLinks>
+              <NavLinks href="#">Portfolio</NavLinks>
             </li>
             <li>
-              <NavLinks href="">Blog</NavLinks>
+              <NavLinks href="#">Blog</NavLinks>
             </li>
             <li>
-              <NavLinks href="">Contact</NavLinks>
+              <NavLinks href="#">Contact</NavLinks>
             </li>
           </ul>
-          <div className="flex justify-center items-center hidden max-sm:block">
+          <div className="flex justify-center items-center hidden max-sm:block pr-3">
             <img
               src="src/Assets/Icons/menu_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.png"
               alt=" hamburgar"
@@ -40,7 +40,7 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-      <hr />
+      
     </header>
   );
 };

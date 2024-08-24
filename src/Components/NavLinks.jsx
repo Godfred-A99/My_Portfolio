@@ -12,9 +12,9 @@ const NavLinks = ({ href, children }) => {
         href={href}
         onClick={handleClick}
         className={`transition-colors duration-200  ${
-          isActive === href
+          isActive == href
             ? "text-orange-500"
-            : "text-white hover:text-orange-500"
+            : "text-white  hover:text-orange-500"
         }`}
       >
         {children}
