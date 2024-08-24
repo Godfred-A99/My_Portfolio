@@ -13,7 +13,7 @@ const NavBar = () => {
           />
         </a>
         <div className="flex justify-center items-center ">
-          <ul className="flex gap-5 text-lg justify-center items-center block max-sm:hidden font-semibold">
+          <ul className="flex gap-5 text-lg justify-center items-center block max-sm:hidden font-semibold font-Roboto_Slab">
             <li>
               <NavLinks href="/">Home</NavLinks>
             </li>
