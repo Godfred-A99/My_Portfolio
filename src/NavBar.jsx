@@ -18,10 +18,10 @@ const NavBar = () => {
               <NavLinks href="/">Home</NavLinks>
             </li>
             <li>
-              <NavLinks href="#">About</NavLinks>
+              <NavLinks href="#About">About</NavLinks>
             </li>
             <li>
-              <NavLinks href="#">Portfolio</NavLinks>
+              <NavLinks href="#Projects">Projects</NavLinks>
             </li>
             <li>
               <NavLinks href="#">Blog</NavLinks>

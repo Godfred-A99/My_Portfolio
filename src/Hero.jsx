@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="flex items-center text-white font-Mulish font-medium ">
             <a
               href=""
-              className="border p-3 px-5 rounded-lg border-txt-color hover:bg-bg-div hover:text-bg-color text-center"
+              className="border p-4 px-5 rounded-lg border-txt-color hover:bg-bg-div hover:text-bg-color text-center"
             >
               Contact Me
             </a>

@@ -1,6 +1,7 @@
 import About from "./About";
 import Hero from "./Hero";
 import NavBar from "./NavBar";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </section>
       <section className="px-24 w-full bg-bg-color ">
         <About />
+      </section>
+      <section className="px-24 w-full bg-bg-color1">
+        <Projects />
       </section>
     </>
   );
