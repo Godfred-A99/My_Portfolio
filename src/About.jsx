@@ -16,7 +16,7 @@ const About = () => {
           <h1 className="font-Roboto_Slab text-2xl font-semibold text-txt-color ">
             About
           </h1>
-          <hr className="mb-10 w-10" />
+          <hr className="mb-10 w-11 bg-bg-div border-bg-div" />
           <p className=" font-Mulish leading-7 mb-5 pb-5">
             Godfred Adjetey is a dedicated web designer and developer with two
             years of experience in the field. Currently, he is a student at
@@ -28,7 +28,7 @@ const About = () => {
           <div className="w-full flex gap-4 font-Mulish font-medium">
             <a
               href=""
-              className="border p-4 rounded-lg bg-bg-div border-bg-color text-bg-color hover:bg-bg-color1 hover:text-txt-color hover:border-bg-div"
+              className="border p-4 rounded-lg bg-bg-div border-bg-color text-bg-color hover:bg-bg-color1 hover:text-txt-color hover:border-bg-div hover:shadow-md hover:shadow-bg-div"
             >
               Download CV
             </a>
