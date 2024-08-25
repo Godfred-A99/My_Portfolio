@@ -1,15 +1,15 @@
 const About = () => {
   return (
     <section id="About">
-      <div className="flex justify-between items-center gap-5 relative pb-5">
+      <div className="flex justify-between items-center gap-5 relative pb-10">
         <div className="w-3/5 ">
-          <div className="bg-bg-div h-60 w-60 mt-10"></div>
+          <div className="bg-bg-div h-80 opacity-30 w-60 mt-16 rounded-lg"></div>
           <img
             src="/src/Assets/Images/pg1.png"
             alt="picture2"
             width={300}
             height={172}
-            className="absolute z-10 top-0 left-9 flex justify-center items-center"
+            className="absolute z-10 top-0 left-10 flex justify-center items-center"
           />
         </div>
         <div className="w-2/5 text-white ">
@@ -26,11 +26,17 @@ const About = () => {
             continuous learning and professional growth.
           </p>
           <div className="w-full flex gap-4 font-Mulish font-medium">
-          <a href="" className="border p-4 rounded-lg bg-bg-div border-bg-color text-bg-color hover:bg-bg-color1 hover:text-txt-color hover:border-bg-div">Download CV</a>
-          <a href="" className="border py-4 px-9 rounded-lg border-bg-div">Hire Me</a>
-        </div>
+            <a
+              href=""
+              className="border p-4 rounded-lg bg-bg-div border-bg-color text-bg-color hover:bg-bg-color1 hover:text-txt-color hover:border-bg-div"
+            >
+              Download CV
+            </a>
+            <a href="" className="border py-4 px-9 rounded-lg border-bg-div">
+              Hire Me
+            </a>
           </div>
-          
+        </div>
       </div>
     </section>
   );
