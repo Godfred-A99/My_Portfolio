@@ -1,3 +1,5 @@
+import Button from "./Components/button";
+
 const About = () => {
   return (
     <section id="About">
@@ -13,11 +15,11 @@ const About = () => {
           />
         </div>
         <div className="w-2/5 text-white ">
-          <h1 className="font-Roboto_Slab text-2xl font-semibold text-txt-color ">
+          <h1 className="font-Roboto_Slab text-4xl font-semibold ">
             About
           </h1>
           <hr className="mb-10 w-11 bg-bg-div border-bg-div" />
-          <p className=" font-Mulish leading-7 mb-5 pb-5">
+          <p className=" font-Mulish leading-7 mb-3 pb-3">
             Godfred Adjetey is a dedicated web designer and developer with two
             years of experience in the field. Currently, he is a student at
             Accra Technical University, where he continues to refine his skills
@@ -26,15 +28,8 @@ const About = () => {
             continuous learning and professional growth.
           </p>
           <div className="w-full flex gap-4 font-Mulish font-medium">
-            <a
-              href=""
-              className="border p-4 rounded-lg bg-bg-div border-bg-color text-bg-color hover:bg-bg-color1 hover:text-txt-color hover:border-bg-div hover:shadow-md hover:shadow-bg-div"
-            >
-              Download CV
-            </a>
-            <a href="" className="border py-4 px-9 rounded-lg border-bg-div">
-              Hire Me
-            </a>
+            <Button name={'Hire Me'}/>
+            <Button name={"Download CV"}/>
           </div>
         </div>
       </div>

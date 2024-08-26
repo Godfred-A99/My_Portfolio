@@ -1,3 +1,5 @@
+import Button from "./Components/button";
+
 const Hero = () => {
   return (
     <section id="/">
@@ -10,14 +12,7 @@ const Hero = () => {
           <p className="text-white text-lg font-Mulish">
             A Web Designer <br /> & Developer
           </p>
-          <div className="flex items-center text-white font-Mulish font-medium ">
-            <a
-              href=""
-              className="border p-4 px-5 rounded-lg border-txt-color hover:bg-bg-div hover:text-bg-color text-center"
-            >
-              Contact Me
-            </a>
-          </div>
+          <Button name={"Contact Me"}  />
         </div>
         <div className="flex justify-center items-center pr-10">
           <img
