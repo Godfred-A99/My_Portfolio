@@ -12,8 +12,8 @@ const NavBar = () => {
             height={172}
           />
         </a>
-        <div className="flex justify-center items-center ">
-          <ul className="flex gap-5 text-lg justify-center items-center block max-sm:hidden font-semibold font-Roboto_Slab">
+        <div className="flex justify-center items-center pr-5">
+          <ul className="flex gap-10 text-lg justify-center items-center block max-md:hidden font-semibold font-Roboto_Slab max-sm:gap-5">
             <li>
               <NavLinks href="/">Home</NavLinks>
             </li>
@@ -30,7 +30,7 @@ const NavBar = () => {
               <NavLinks href="#">Contact</NavLinks>
             </li>
           </ul>
-          <div className="flex justify-center items-center hidden max-sm:block pr-3">
+          <div className="flex justify-center items-center hidden max-md:block pr-3">
             <img
               src="src/Assets/Icons/menu_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.png"
               alt=" hamburgar"
@@ -40,7 +40,6 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-      
     </header>
   );
 };
