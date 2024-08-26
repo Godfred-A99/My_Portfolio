@@ -12,7 +12,7 @@ const Hero = () => {
           <p className="text-white text-lg font-Mulish">
             A Web Designer <br /> & Developer
           </p>
-          <Button name={"Contact Me"}  />
+          <Button name={"Contact Me"} />
         </div>
         <div className="flex justify-center items-center pr-10">
           <img

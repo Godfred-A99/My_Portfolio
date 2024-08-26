@@ -7,7 +7,7 @@ const Cards = ({ image, description, }) => {
       <div className="text-sm text-white text-center">{description}</div>
           <div className="flex justify-center gap-2">
           <Button name={'View'}/>
-          <Button name={'V'}/>
+          <Button name={''}/>
           </div>
         </div>
 
