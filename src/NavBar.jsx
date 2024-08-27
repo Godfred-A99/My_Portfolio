@@ -2,7 +2,7 @@ import NavLinks from "./Components/NavLinks";
 
 const NavBar = () => {
   return (
-    <header className=" z-10 w-full bg-bg-color py-8 px-20 max-sm:px-2 ">
+    <header className=" z-10 w-full bg-bg-color py-8 px-28 max-sm:px-10 ">
       <nav className="flex justify-between items-center">
         <a href="">
           <img
