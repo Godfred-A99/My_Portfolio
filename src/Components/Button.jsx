@@ -1,6 +1,6 @@
 const Button = ({ name, icon }) => {
   return (
-    <button className="flex justify-center items-center gap-2 px-7 py-4 font-Mulish text-lg leading-none bg-bg-div text-bg-color rounded-lg ">
+    <button className="flex justify-center items-center gap-2 px-5 py-4 font-Mulish text-lg leading-none bg-bg-div text-bg-color rounded-lg ">
       {name}
       {icon && (
         <img
