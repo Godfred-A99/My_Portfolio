@@ -1,10 +1,12 @@
+import Hero from "./Hero";
 import NavBar from "./NavBar";
 
 function App() {
   return (
     <>
-      <section className="w-full  ">
-        <NavBar />
+      <NavBar />
+      <section className="">
+        <Hero />
       </section>
     </>
   );
