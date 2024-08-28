@@ -2,8 +2,8 @@ import Button from "./Components/Button";
 
 const About = () => {
   return (
-    <section className=" relative flex justify-between w-full bg-bg-color min-h-screen px-28 xl:flex-row flex-col-reverse max-sm:px-10 gap-5">
-      <div className="xl:w-2/5 py-10 w-full  max-md:py-20 max-lg:flex max-lg:justify-center">
+    <section id="About" className=" relative flex justify-between w-full bg-bg-color min-h-screen px-28 xl:flex-row flex-col-reverse max-sm:px-10 gap-5">
+      <div className="xl:w-2/5 py-5 w-full  max-lg:py-20 max-lg:flex max-lg:justify-center">
         <div className="relative bg-bg-div w-96 h-96 top-2 rounded-lg ">
           <img
             src="/src/Assets/Images/pg1.png"
