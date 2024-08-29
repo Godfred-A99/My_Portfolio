@@ -6,7 +6,7 @@ const Blog = () => {
       <div className="">
         <h1 className="font-Roboto_Slab text-center text-4xl text-white p-1">Blogs</h1>
         <hr className="m-auto border-bg-div w-14"/>
-        <div className="flex justify-center items-center gap-4 py-10">
+        <div className="flex justify-center items-center gap-4 py-10 xl:flex-row flex-col w-ful">
            <Card />
            <Card />
            <Card />

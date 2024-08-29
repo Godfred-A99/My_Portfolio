@@ -8,7 +8,7 @@ const Projects = () => {
           Projects
         </h2>
         <hr className="w-20 border-bg-div m-auto" />
-        <div className="flex justify-center items-center gap-4 py-10 ">
+        <div className="flex justify-center items-center gap-4 py-10 xl:flex-row flex-col">
             <Card />
             <Card />
             <Card />
