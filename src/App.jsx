@@ -1,4 +1,5 @@
 import About from "./About";
+import Blog from "./Blog";
 import Hero from "./Hero";
 import NavBar from "./NavBar";
 import Projects from "./Projects";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Blog />
     </>
   );
 }
